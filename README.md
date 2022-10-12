@@ -53,10 +53,10 @@ Please run `pip install -r requirements.txt` (`python3` required). For fine-tuni
 
 - Go to [this link](./S10_Code)
 
+## Fine-tuning on some of the SciBERT Paper Datasets
+
+- Check all notebooks [here](./Scibert_datasets_code).
+
 ## Fine-tuning on GLUE Benchmark Datasets
 
 - Check all notebooks [here](./GLUE_code).
-
-## Appendix - Fine-tuning on some of the SciBERT Paper Datasets
-
-- Check all notebooks [here](./Scibert_datasets_code).
