@@ -35,6 +35,16 @@ Please run `pip install -r requirements.txt` (`python3` required). For fine-tuni
 7. [ConSERT](https://huggingface.co/AnonymousSub/unsup-consert-base)
 8. [SPECTER](https://huggingface.co/AnonymousSub/specter-bert-model)
 
+## Links to the models pre-trained in teh Scientific Domain
+
+- Proposed Model - [<em>FPDM<sub>SciBERT</sub></em>](https://huggingface.co/AnonymousSub/fpdm_models_scibert_hybrid_epochs_4)
+
+- Baselines
+
+1. [SciBERT](https://huggingface.co/allenai/scibert_scivocab_uncased)
+2. [SPECTER](https://huggingface.co/allenai/specter)
+3. [SciNCL](https://huggingface.co/malteos/scincl)
+
 ## Fine-tuning on SQuAD 2.0
 
 - To download the training set, run `wget https://rajpurkar.github.io/SQuAD-explorer/dataset/train-v2.0.json`.
