@@ -13,6 +13,8 @@
 9. `convert_to_HF_model.py` - converting `.pt` model generated during pre-training to a model contemporary with HuggingFace.
 10. `models_.py` - contains classes for the pre-training architectures used.
 
+> Before pre-training, please download folders - `rule_based_sentemb_shards` and `triplet_rule_based_sentemb_shards` in this directory, which contain sentence embeddings that are used in the pre-training codes. Download Link corresponding to `RoBERTa`-based variants - https://drive.google.com/drive/folders/1phYFoYcheU7Kzs-kfXuy_RRNAd4qaryi?usp=sharing
+
 > In order to pre-train RoBERTa-based variants, assign `model_type = 'roberta'` in the code, and for BERT-based variants, assign `model_type = 'bert'`.
 
 > Also, for pre-training, run 
@@ -20,6 +22,4 @@
 ```
 python3 <PRE-TRAINING FILENAME> 1
 ```
-
-> Link to the sentence embeddings used in the codes (in the form of `.pickle` files) - https://drive.google.com/drive/folders/1phYFoYcheU7Kzs-kfXuy_RRNAd4qaryi?usp=sharing
 
