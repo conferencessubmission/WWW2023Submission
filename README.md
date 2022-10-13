@@ -12,7 +12,7 @@ Please run `pip install -r requirements.txt` (`python3` required). For fine-tuni
 2. [<em>FPDM<sub>RoBERTa</sub> (triplet)</em>](https://huggingface.co/AnonymousSub/rule_based_roberta_bert_triplet_epochs_1_shard_1)
 3. [<em>FPDM<sub>RoBERTa</sub></em>](https://huggingface.co/AnonymousSub/rule_based_roberta_hier_triplet_epochs_1_shard_1)
 
-- Ablation studies - changing the document encoder of RoBERTa-based variants to 'Paragraph Encoder + 2-layer transformer' 
+- changing the document encoder of RoBERTa-based variants to 'Paragraph Encoder + 2-layer transformer' 
 
 1. [PARA ENC. + 2L <em>(hier.)</em>](https://huggingface.co/AnonymousSub/rule_based_roberta_only_classfn_twostage_epochs_1_shard_1)
 2. [PARA ENC. + 2L <em>(triplet)</em>](https://huggingface.co/AnonymousSub/rule_based_roberta_twostagetriplet_epochs_1_shard_1)
@@ -37,7 +37,10 @@ Please run `pip install -r requirements.txt` (`python3` required). For fine-tuni
 
 ## Links to the models pre-trained in teh Scientific Domain
 
-- Proposed Model - [<em>FPDM<sub>SciBERT</sub></em>](https://huggingface.co/AnonymousSub/fpdm_models_scibert_hybrid_epochs_4)
+- Our Proposed Variants
+1. [<em>FPDM<sub>SciBERT</sub></em>](https://huggingface.co/AnonymousSub/fpdm_models_scibert_hybrid_epochs_4)
+2. [<em>FPDM<sub>SciBERT</sub> (hier.)</em>](https://huggingface.co/AnonymousSub/SCIENTIFIC_fpdm_models_hier_scibert_epochs_4)
+3. [<em>FPDM<sub>SciBERT</sub> (triplet)</em>](https://huggingface.co/AnonymousSub/SCIENTIFIC_fpdm_models_triplet_scibert_hybrid_epochs_4)
 
 - Baselines
 
