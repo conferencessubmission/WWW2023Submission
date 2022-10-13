@@ -1,4 +1,4 @@
-# Code for the WWW 2023 submission - 'FPDM: A Fast Pre-training Technique using Document-Level Metadata for Reliable Customer Support Question Answering'
+# Code for the WWW 2023 submission - 'FPDM: A Fast Pre-training Technique using Document-Level Metadata'
 
 ## Required dependencies
 
