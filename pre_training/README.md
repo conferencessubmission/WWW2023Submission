@@ -13,7 +13,7 @@
 9. `convert_to_HF_model.py` - converting `.pt` model generated during pre-training to a model contemporary with HuggingFace.
 10. `models_.py` - contains classes for the pre-training architectures used.
 
-> Before pre-training, please download the folders from https://drive.google.com/drive/folders/1phYFoYcheU7Kzs-kfXuy_RRNAd4qaryi?usp=sharing in this directory, which contain sentence embeddings that are used in the pre-training codes. 
+> Before pre-training, please download the folders from https://drive.google.com/drive/folders/1MZW8YjC0NAk2tVioquiw9QCHq6t4iWxB?usp=sharing in this directory, which contain sentence embeddings that are used in the pre-training codes. 
 
 > In order to pre-train RoBERTa-based variants, assign `model_type = 'roberta'` in the code, and for BERT-based variants, assign `model_type = 'bert'`.
 
