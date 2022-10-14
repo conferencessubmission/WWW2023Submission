@@ -19,8 +19,4 @@
 ```
 python3 <PRE-TRAINING FILENAME> 1
 ```
-# Misc. Files
 
-1. `only_classfn_two_stage_rule_based_shards.py` - code for pre-training the `hier.` model using 'Paragraph Encoder + 2-layer transformer' as document encoder
-2. `two_stage_triplet_rule_based_shards.py` - code for pre-training the `triplet` model using 'Paragraph Encoder + 2-layer transformer' as document encoder
-3. `heirarchical_classes_two_stage_triplet_rule_based_shards.py` - code for pre-training the `triplet + hier.` model using 'Paragraph Encoder + 2-layer transformer' as document encoder
