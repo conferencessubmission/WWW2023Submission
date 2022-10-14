@@ -12,12 +12,6 @@ Please run `pip install -r requirements.txt` (`python3` required). For fine-tuni
 2. [<em>FPDM<sub>RoBERTa</sub> (triplet)</em>](https://huggingface.co/AnonymousSub/rule_based_roberta_bert_triplet_epochs_1_shard_1)
 3. [<em>FPDM<sub>RoBERTa</sub></em>](https://huggingface.co/AnonymousSub/rule_based_roberta_hier_triplet_epochs_1_shard_1)
 
-- changing the document encoder of RoBERTa-based variants to 'Paragraph Encoder + 2-layer transformer' 
-
-1. [PARA ENC. + 2L <em>(hier.)</em>](https://huggingface.co/AnonymousSub/rule_based_roberta_only_classfn_twostage_epochs_1_shard_1)
-2. [PARA ENC. + 2L <em>(triplet)</em>](https://huggingface.co/AnonymousSub/rule_based_roberta_twostagetriplet_epochs_1_shard_1)
-3. [PARA ENC. + 2L](https://huggingface.co/AnonymousSub/rule_based_roberta_twostagetriplet_hier_epochs_1_shard_1)
-
 - Our proposed BERT-based variants
 
 1. [<em>FPDM<sub>BERT</sub> (hier.)</em>](https://huggingface.co/AnonymousSub/rule_based_only_classfn_epochs_1_shard_1)
