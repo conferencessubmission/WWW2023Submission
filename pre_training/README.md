@@ -1,4 +1,4 @@
-# Pre-training
+# Pre-training on E-Manuals
 
 - Files/Folders
 
@@ -19,4 +19,4 @@
 ```
 python3 <PRE-TRAINING FILENAME> 1
 ```
-
+> Pre-training on Scientific Papers - similar to pre-training on E-Manuals
