@@ -7,11 +7,8 @@
 3. `only_classfn_rule_based_shards.py` - code for pre-training the `hier.` model
 4. `triplet_net_rule_based_shards.py` - code for pre-training the `triplet` model
 5. `heirarchical_classes_triplet_net_rule_based_shards.py` - code for pre-training the `triplet + hier.` model
-6. `only_classfn_two_stage_rule_based_shards.py` - code for pre-training the `hier.` model using 'Paragraph Encoder + 2-layer transformer' as document encoder
-7. `two_stage_triplet_rule_based_shards.py` - code for pre-training the `triplet` model using 'Paragraph Encoder + 2-layer transformer' as document encoder
-8. `heirarchical_classes_two_stage_triplet_rule_based_shards.py` - code for pre-training the `triplet + hier.` model using 'Paragraph Encoder + 2-layer transformer' as document encoder
-9. `convert_to_HF_model.py` - converting `.pt` model generated during pre-training to a model contemporary with HuggingFace.
-10. `models_.py` - contains classes for the pre-training architectures used.
+6. `convert_to_HF_model.py` - converting `.pt` model generated during pre-training to a model contemporary with HuggingFace.
+7. `models_.py` - contains classes for the pre-training architectures used.
 
 > Before pre-training, please download the folders from https://drive.google.com/drive/folders/1MZW8YjC0NAk2tVioquiw9QCHq6t4iWxB?usp=sharing in this directory, which contain sentence embeddings that are used in the pre-training codes. 
 
@@ -22,4 +19,8 @@
 ```
 python3 <PRE-TRAINING FILENAME> 1
 ```
+# Misc. Files
 
+1. `only_classfn_two_stage_rule_based_shards.py` - code for pre-training the `hier.` model using 'Paragraph Encoder + 2-layer transformer' as document encoder
+2. `two_stage_triplet_rule_based_shards.py` - code for pre-training the `triplet` model using 'Paragraph Encoder + 2-layer transformer' as document encoder
+3. `heirarchical_classes_two_stage_triplet_rule_based_shards.py` - code for pre-training the `triplet + hier.` model using 'Paragraph Encoder + 2-layer transformer' as document encoder
