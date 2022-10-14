@@ -19,4 +19,4 @@
 ```
 python3 <PRE-TRAINING FILENAME> 1
 ```
-> Pre-training on Scientific Papers - similar to pre-training on E-Manuals
+> Pre-training on Scientific Papers - Code is similar to pre-training on E-Manuals, except that it uses ArXiv Category Taxonomy (https://arxiv.org/category_taxonomy), and the triplets used are a subset of the paper triplets used for pre-training by [SPECTER](https://github.com/allenai/specter), such that all the papers in each triplet are present in ArXiv.
