@@ -29,7 +29,7 @@ Please run `pip install -r requirements.txt` (`python3` required). For fine-tuni
 7. [ConSERT](https://huggingface.co/AnonymousSub/unsup-consert-base)
 8. [SPECTER](https://huggingface.co/AnonymousSub/specter-bert-model)
 
-## Links to the models pre-trained in teh Scientific Domain
+## Links to the models pre-trained in the Scientific Domain
 
 - Our Proposed Variants
 1. [<em>FPDM<sub>SciBERT</sub></em>](https://huggingface.co/AnonymousSub/fpdm_models_scibert_hybrid_epochs_4)
